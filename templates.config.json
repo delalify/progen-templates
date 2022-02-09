@@ -1,1 +1,4 @@
-{}
+{
+	"node-express-javascript": "./templates/node/express-javascript",
+	"node-exp-js": "./templates/node/express-javascript"
+}
