@@ -1,6 +1,8 @@
 {
-	"node-express-javascript": "./templates/node/express-javascript",
-	"node-exp-js": "./templates/node/express-javascript",
-	"node-express-typescript": "./templates/node/express-typescript",
-	"node-exp-ts": "./templates/node/express-typescript"
+	"templatePaths": {
+		"node-express-javascript": "./templates/node/express-javascript",
+		"node-exp-js": "./templates/node/express-javascript",
+		"node-express-typescript": "./templates/node/express-typescript",
+		"node-exp-ts": "./templates/node/express-typescript"
+	}
 }
