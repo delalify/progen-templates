@@ -2,14 +2,10 @@
   "env": {
 		"node": true,
 		"es2021": true,
-		"browser": true
 	},
-	"globals": {
-		"window": true
-	},
-	"extends": ["eslint:recommended", "prettier"],
+	"extends": ["eslint:recommended", "plugin:prettier"],
 	"parserOptions": {
-		"ecmaVersion": 12,
+		"ecmaVersion": 13,
 		"sourceType": "module"
 	},
 	"plugins": ["prettier"],
