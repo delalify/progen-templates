@@ -22,5 +22,5 @@ app.use('/scream', exampleRouter)
 // Listen for requests at the server port
 app.listen(SERVER_PORT, () => {
   console.log(`Server started at http://localhost:${SERVER_PORT}`)
-  return console.log('Try navigating to `/scream`')
+  return console.log(`Try navigating to \`http://localhost:${SERVER_PORT}/scream\``)
 })
