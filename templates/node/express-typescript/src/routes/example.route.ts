@@ -1,4 +1,7 @@
+// Import Router function and interfaces from Express
 import { Router, Request, Response } from 'express';
+
+// Import the example controller
 import  exampleController  from '../controllers/example.controller';
 
 // Create a router
