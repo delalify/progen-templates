@@ -1,4 +1,4 @@
-// Import Express
+// Import Express and some interfaces
 import express, {Request, Response} from 'express'
 
 // Import configuration for the server
