@@ -2,7 +2,11 @@
 	"templatePaths": {
 		"node-express-javascript": "./templates/node/express-javascript",
 		"node-exp-js": "./templates/node/express-javascript",
+		"node-express-mongo-javascript": "./templates/node/express-mongo-javascript",
+		"node-exp-mongo-js": "./templates/node/express-mongo-javascript",
 		"node-express-typescript": "./templates/node/express-typescript",
-		"node-exp-ts": "./templates/node/express-typescript"
+		"node-exp-ts": "./templates/node/express-typescript",
+		"node-express-mongo-typescript": "./templates/node/express-mongo-typescript",
+		"node-exp-mongo-ts": "./templates/node/express-mongo-typescript"
 	}
 }
