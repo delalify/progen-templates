@@ -7,9 +7,9 @@
 		"watch:dev": "tsc -w",
 		"start": "eslint src --ext .ts && tsc && node dist/app.js",
 		"lint": "eslint src --ext .ts",
-		"format:all": "prettier-eslint --write src/**/*.ts",
-		"watch:format": "chokidar \"src/**/*.ts\" -c \"prettier-eslint --write {path}\"",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"format:all": "prettier-eslint --write src/**/*.ts __tests__/**/*.js",
+		"watch:format": "chokidar \"src/**/*.ts\" \"__tests__/**/*.js\" -c \"prettier-eslint --write {path}\"",
+		"test": "mocha -w __tests__"
 	},
 	"repository": "https://github.com/delalify/progen-templates",
 	"author": "Delalify (https://delalify.com)",
@@ -23,6 +23,7 @@
 		"chokidar-cli": "^3.0.0",
 		"eslint": "7.28.0",
 		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-node": "^11.1.0",
 		"eslint-plugin-prettier": "^4.0.0",
 		"mocha": "^9.2.0",
 		"prettier": "^2.5.1",
