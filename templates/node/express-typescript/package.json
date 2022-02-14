@@ -10,7 +10,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": "https://github.com/delalify/progen-templates",
-	"author": "Delalify",
+	"author": "Delalify (https://delalify.com)",
 	"license": "MIT",
 	"private": false,
 	"devDependencies": {
