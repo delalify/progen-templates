@@ -4,9 +4,10 @@
 	"description": "A Node JS Express project written in Typescript",
 	"main": "index.js",
 	"scripts": {
-		"watch": "tsc -w",
-		"start": "eslint . --ext .ts && tsc && node dist/app.js",
-		"lint": "eslint . --ext .ts",
+		"watch:dev": "tsc -w",
+		"start": "eslint src --ext .ts && tsc && node dist/app.js",
+		"lint": "eslint src --ext .ts",
+		"format:all": "prettier-eslint --write src/**/*.ts",
 		"watch:format": "chokidar \"src/**/*.ts\" -c \"prettier-eslint --write {path}\"",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
