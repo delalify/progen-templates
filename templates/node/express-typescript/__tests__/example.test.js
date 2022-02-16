@@ -37,7 +37,7 @@ describe( 'Scream API Integration Tests', function () {
 		} )
 	} )
 
-	describe( 'POST /scream', () => {
+	describe( 'Unsupported methods', () => {
 		it( 'it should send an error response for unsupported method POST', ( done ) => {
 			request( app )
 				.post( '/scream' )
