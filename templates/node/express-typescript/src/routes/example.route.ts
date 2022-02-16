@@ -19,8 +19,17 @@ exampleRouter.get( '/*', ( req: Request, res: Response ) => {
 	return exampleController( req, res )
 } )
 
+// Handle unknown routes/endpoints
+exampleRouter.get( '*', ( req: Request, res: Response ) => {
+	return res.status( 404 ).send( {
+		is_error: true,
+		status_code: 404,
+		message: 'The requested route does not exist.',
+	} )
+} )
+
 // Handle unsupported HTTP request methods
-exampleRouter.all( '*', ( req, res ) => {
+exampleRouter.all( '*', ( req: Request, res: Response ) => {
 	return res.status( 405 ).send( {
 		is_error: true,
 		status_code: 405,
