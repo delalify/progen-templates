@@ -19,8 +19,21 @@ app.get( '/', ( req: Request, res: Response ) => {
 // Use a router to handle all incoming requests to the `/scream` endpoint
 app.use( '/scream', exampleRouter )
 
-// Listen for requests at the server port
-app.listen( SERVER_PORT, () => {
-	console.log( `Server started at http://localhost:${SERVER_PORT}` )
-	return console.log( `Try navigating to \`http://localhost:${SERVER_PORT}/scream\`` )
+// Handle unknown routes/endpoints
+app.get( '*', ( _req, res ) => {
+	return res.status( 404 ).send( {
+		is_error: true,
+		status_code: 404,
+		message: 'The requested route does not exist.',
+	} )
 } )
+
+if ( require.main === module ) {
+	// Listen for requests at the server port
+	app.listen( SERVER_PORT, () => {
+		console.log( `Server started at http://localhost:${SERVER_PORT}` )
+		return console.log( `Try navigating to \`http://localhost:${SERVER_PORT}/scream\`` )
+	} )
+}
+
+export default app
