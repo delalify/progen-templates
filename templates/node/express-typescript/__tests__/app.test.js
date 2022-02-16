@@ -13,8 +13,18 @@ const app = require( '../dist/app' ).default
 const expect = chai.expect
 
 describe( 'Server Integration Tests', function () {
-	describe( 'GET /scream', () => {
-		it( 'it should GET the default response at the base endpoint', ( done ) => {
+	describe( 'GET /', () => {
+		it( 'it should send a response of "Hello, World!"', ( done ) => {
+			request( app )
+				.get( '/' )
+				.end( function ( error, response ) {
+					expect( response.statusCode ).to.equal( 200 )
+					expect( response.text ).to.be.equal( 'Hello, World!' )
+					done()
+				} )
+		} )
+
+		it( 'it should GET the default response at /scream', ( done ) => {
 			request( app )
 				.get( '/scream' )
 				.end( function ( error, response ) {
@@ -33,11 +43,19 @@ describe( 'Server Integration Tests', function () {
 				.get( '/unknown' )
 				.end( function ( error, response ) {
 					expect( response.statusCode ).to.equal( 404 )
-					expect( response.body ).to.be.eql( {
-						is_error: true,
-						status_code: 404,
-						message: 'The requested route does not exist.',
-					} )
+					expect( response.text ).to.be.equal( 'The requested route does not exist.' )
+					done()
+				} )
+		} )
+	} )
+
+	describe( 'Unsupported methods', () => {
+		it( 'it should return an error response for POST /', ( done ) => {
+			request( app )
+				.post( '/' )
+				.end( function ( error, response ) {
+					expect( response.statusCode ).to.equal( 405 )
+					expect( response.text ).to.be.equal( 'Method Not Allowed. Received: \'POST\'' )
 					done()
 				} )
 		} )
