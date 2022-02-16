@@ -20,9 +20,9 @@ export default ( req: Request, res: Response ) => {
 		}
 
 		// Send the screamed message as a response
-		return res.send( `${screamedMessage}!!!` )
+		return res.status( 200 ).send( `${screamedMessage}!!!` )
 	}
 
 	// Send a sad message when the supplied value contains foreign characters like numbers
-	return res.send( 'I thought you\'d send me some words or names to scream. *sob :(' )
+	return res.status( 200 ).send( 'I thought you\'d send me some words or names to scream. *sob :(' )
 }
