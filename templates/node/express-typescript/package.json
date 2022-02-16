@@ -5,11 +5,12 @@
 	"main": "index.js",
 	"scripts": {
 		"watch:dev": "tsc -w",
-		"start": "eslint src --ext .ts && tsc && node dist/app.js",
-		"lint": "eslint src --ext .ts",
+		"start": "eslint -c src/.eslintrc.json \"src/**/*.ts\" --ext .ts && tsc && node dist/app.js",
+		"lint": "eslint -c src/.eslintrc.json \"src/**/*.ts\" --ext .ts && eslint -c __tests__/.eslintrc.json \"__tests__/**/*.js\" --ext .js",
+		"build:all": "tsc",
 		"format:all": "prettier-eslint --write src/**/*.ts __tests__/**/*.js",
 		"watch:format": "chokidar \"src/**/*.ts\" \"__tests__/**/*.js\" -c \"prettier-eslint --write {path}\"",
-		"test": "mocha -w __tests__"
+		"test": "mocha -w __tests__/**/*.test.js --timeout 10000"
 	},
 	"repository": "https://github.com/delalify/progen-templates",
 	"author": "Delalify (https://delalify.com)",
