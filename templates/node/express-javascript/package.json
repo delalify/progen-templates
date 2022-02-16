@@ -2,14 +2,31 @@
 	"name": "node-express-javascript",
 	"version": "1.0.0",
 	"description": "A Node JS Express project written in JavaScript",
-	"main": "index.js",
+	"main": "src/app.js",
 	"scripts": {
-		"start": "node app.js",
-		"lint": "eslint . --ext .ts",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "eslint --ext .js && node src/app.js",
+		"lint": "eslint --ext .js",
+		"format:all": "prettier-eslint --write src/**/*.js __tests__/**/*.js",
+		"watch:format": "chokidar \"src/**/*.ts\" \"__tests__/**/*.js\" -c \"prettier-eslint --write {path}\"",
+		"test": "mocha -w __tests__/**/*.test.js --timeout 10000"
 	},
 	"repository": "https://github.com/delalify/progen-templates",
-	"author": "Delalify",
+	"author": "Delalify (https://delalify.com)",
 	"license": "MIT",
-	"private": false
+	"private": false,
+	"devDependencies": {
+		"chai": "^4.3.6",
+		"chokidar-cli": "^3.0.0",
+		"eslint": "7.28.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"mocha": "^9.2.0",
+		"prettier": "^2.5.1",
+		"prettier-eslint-cli": "^5.0.1",
+		"supertest": "^6.2.2"
+	},
+	"dependencies": {
+		"express": "^4.17.2"
+	}
 }
