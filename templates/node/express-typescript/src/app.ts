@@ -13,19 +13,20 @@ app.use( express.json() )
 
 // Initialize a route handler
 app.get( '/', ( req: Request, res: Response ) => {
-	res.send( 'Hello, World!' )
+	return res.status( 200 ).send( 'Hello, World!' )
 } )
 
 // Use a router to handle all incoming requests to the `/scream` endpoint
 app.use( '/scream', exampleRouter )
 
 // Handle unknown routes/endpoints
-app.get( '*', ( _req, res ) => {
-	return res.status( 404 ).send( {
-		is_error: true,
-		status_code: 404,
-		message: 'The requested route does not exist.',
-	} )
+app.get( '*', ( req: Request, res: Response ) => {
+	return res.status( 404 ).send( 'The requested route does not exist.' )
+} )
+
+// Handle unsupported HTTP request methods
+app.all( '*', ( req: Request, res: Response ) => {
+	return res.status( 405 ).send( `Method Not Allowed. Received: '${req.method}'` )
 } )
 
 if ( require.main === module ) {
