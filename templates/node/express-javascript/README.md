@@ -1,6 +1,12 @@
 # node-express-javascript
 
-> A Node JS Express project written in JavaScript
+> A Node JS Express project written in JavaScript.
+
+This project uses:
+
+- [Express](https://expressjs.org)
+- [ESLint](https://eslint.org)
+- [Prettier](https://prettier.io)
 
 ## Install
 
