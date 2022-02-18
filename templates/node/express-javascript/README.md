@@ -28,11 +28,12 @@ This project was created for Node JS, with Express, in JavaScript.
   </li>
   <li>
     <a href="#scripts">Scripts</a>
-    <ul>
-      <li><a href="#start">Start</a></li>
-      <li><a href="#lint">Lint</a></li>
+     <ul>
+      <li><a href="#start-the-development-server">Start The Development Server</a></li>
+      <li><a href="#lint-files">Lint Files</a></li>
       <li><a href="#format-all-files">Format All Files</a></li>
       <li><a href="#watch-and-format-changed-files">Watch and Format Changed Files</a></li>
+      <li><a href="#run-tests">Run Tests</a></li>
     </ul>
   </li>
   <li><a href="#deployment">Deployment</a></li>
@@ -142,7 +143,7 @@ After installing the dependencies, run the start script:
 
 ## 🛠️ Scripts
 
-### Start
+### Start The Development Server
 
 Starts the development server
 
@@ -166,9 +167,9 @@ Starts the development server
 
 <hr />
 
-### Lint
+### Lint Files
 
-Lints source code with ESLint
+Lints source code files with ESLint
 
 #### Usage
 
@@ -236,6 +237,30 @@ Watches for changes in source code files and formats each with Prettier-ESLint
   yarn watch:format
   ```
 
+<hr />
+
+### Run Tests
+
+Watches and runs all tests
+
+#### Usage
+
+- `npm`
+
+  ```sh
+  npm run test
+  ```
+
+- `yarn`
+
+  ```sh
+  yarn run test
+
+  # or
+
+  yarn test
+  ```
+
 <br />
 
 <!-- DEPLOYMENT -->
@@ -301,7 +326,7 @@ Use this space to list resources you find helpful and would like to give credit 
 
 - [Img Shields](https://shields.io)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">👆 <a href="#top">Go To Top of README</a></p>
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
