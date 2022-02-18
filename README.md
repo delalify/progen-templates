@@ -145,7 +145,7 @@ A special acknowledgement of the resources used in creating this README:
 
 - [Img Shields](https://shields.io)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">👆 <a href="#top">Go To Top of README</a></p>
 
 <!-- LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
