@@ -10,6 +10,8 @@
 		"node-express-mongo-typescript": "./templates/node/express-mongo-typescript",
 		"node-exp-mongo-ts": "./templates/node/express-mongo-typescript",
 		"nextjs-javascript": "./templates/nextjs-javascript",
-		"nextjs-js": "./templates/nextjs-javascript"
+		"nextjs-js": "./templates/nextjs-javascript",
+		"nextjs-typescript": "./templates/nextjs-typescript",
+		"nextjs-ts": "./templates/nextjs-typescript"
 	}
 }
