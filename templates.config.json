@@ -12,6 +12,8 @@
 		"nextjs-javascript": "./templates/nextjs-javascript",
 		"nextjs-js": "./templates/nextjs-javascript",
 		"nextjs-typescript": "./templates/nextjs-typescript",
-		"nextjs-ts": "./templates/nextjs-typescript"
+		"nextjs-ts": "./templates/nextjs-typescript",
+		"nextjs-cypress-javascript": "./templates/nextjs-cypress-javascript",
+		"nextjs-cyp-js": "./templates/nextjs-cypress-javascript"
 	}
 }
