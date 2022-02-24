@@ -8,6 +8,12 @@
 		"node-express-typescript": "./templates/node/express-typescript",
 		"node-exp-ts": "./templates/node/express-typescript",
 		"node-express-mongo-typescript": "./templates/node/express-mongo-typescript",
-		"node-exp-mongo-ts": "./templates/node/express-mongo-typescript"
+		"node-exp-mongo-ts": "./templates/node/express-mongo-typescript",
+		"nextjs-javascript": "./templates/nextjs-javascript",
+		"nextjs-js": "./templates/nextjs-javascript",
+		"nextjs-typescript": "./templates/nextjs-typescript",
+		"nextjs-ts": "./templates/nextjs-typescript",
+		"nextjs-cypress-javascript": "./templates/nextjs-cypress-javascript",
+		"nextjs-cyp-js": "./templates/nextjs-cypress-javascript"
 	}
 }
