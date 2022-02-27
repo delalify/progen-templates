@@ -4,8 +4,6 @@
 
 This project was created for Node JS, with Express, in Typescript.
 
-[![MIT License][license-shield]][license-url]
-
 <br />
 
 <!-- TABLE OF CONTENTS -->
@@ -31,18 +29,15 @@ This project was created for Node JS, with Express, in Typescript.
     <ul>
       <li><a href="#watch-and-compile-changes-in-typescript-files">Watch and Compile Changes In Typescript Files</a></li>
       <li><a href="#start-the-development-server">Start The Development Server</a></li>
-      <li><a href="#lint-files">Lint Files</a></li>
+      <li><a href="#lint-all-files">Lint All Files</a></li>
       <li><a href="#format-all-files">Format All Files</a></li>
-      <li><a href="#watch-and-format-changed-files">Watch and Format Changed Files</a></li>
       <li><a href="#run-tests">Run Tests</a></li>
     </ul>
   </li>
   <li><a href="#deployment">Deployment</a></li>
-  <li><a href="#roadmap">Roadmap</a></li>
   <li><a href="#issues">Issues</a></li>
   <li><a href="#contributing">Contributing</a></li>
   <li><a href="#license">License</a></li>
-  <li><a href="#contact">Contact</a></li>
   <li>
     <a href="#acknowledgments">Acknowledgments</a>
     <ul>
@@ -57,26 +52,16 @@ This project was created for Node JS, with Express, in Typescript.
 
 ## 📖 About The Project
 
-<p>
-  This project was bootstrapped by <a href='(http://github.com/delalify/progen)'>Progen</a>.
-</p>
-
-<br />
-
 ### Built With
 
 This project was created with the following frameworks/libraries:
 
-- [Typescript](https://typescriptlang.org) for writing JavaScript with [types](link-here).
+- [Typescript](https://typescriptlang.org) for writing JavaScript with types.
 - [Express](https://expressjs.org) for creating web servers.
 - [ESLint](https://eslint.org) for linting.
 - [Prettier](https://prettier.io) for formatting source code.
-- [Prettier-ESLint](link-here) for easier linting and formatting of source code with ESLint and Prettier.
-- [Mocha](https://prettier.io) for testing.
-- [ESLint Plugin Prettier](link) for integrating Prettier with ESLint.
-- [ESLint Config Prettier](link) for integrating Prettier configurations with ESLint configurations.
-- [Chokidar CLI](link) for watching changes in files.
-- [Supertest](link) for writing easier API tests with Mocha.
+- [Mocha](https://mochajs.org) for testing.
+- [Supertest](https://npmjs.com/package/supertest) for writing easier API tests with Mocha.
 
 <br />
 
@@ -88,11 +73,11 @@ Here, we show you how to get started with this project.
 
 ### Prerequisites
 
-If you already have `Node JS` installed and would like to use `npm`, you may [skip this step](#development).
+If you already have `Node JS` installed and would like to use `npm`, you may skip this step.
 
 - #### Install Node JS
 
-  Download and install stable version of Node JS from [here]().
+  Download and install stable version of Node JS from [here](https://nodejs.org/download).
 
 - #### Install Yarn (optional)
 
@@ -194,9 +179,9 @@ Starts the development server
 
 <hr />
 
-### Lint Files
+### Lint All Files
 
-Lints source code files with ESLint
+Lints all source code files to find errors
 
 #### Usage
 
@@ -220,48 +205,24 @@ Lints source code files with ESLint
 
 ### Format All Files
 
-Formats all source code files with Prettier-ESLint
+Formats all source code files.
 
 #### Usage
 
 - `npm`
 
   ```sh
-  npm run format:all
+  npm run format
   ```
 
 - `yarn`
 
   ```sh
-  yarn run format:all
+  yarn run format
 
   # or
 
-  yarn format:all
-  ```
-
-<hr />
-
-### Watch and Format Changed Files
-
-Watches for changes in source code files and formats each with Prettier-ESLint
-
-#### Usage
-
-- `npm`
-
-  ```sh
-  npm run watch:format
-  ```
-
-- `yarn`
-
-  ```sh
-  yarn run watch:format
-
-  # or
-
-  yarn watch:format
+  yarn format
   ```
 
 <hr />
@@ -298,24 +259,11 @@ This section describes any details about deploying the API.
 
 <br />
 
-<!-- ROADMAP -->
-
-## ✅ Roadmap
-
-<p>This section shows any roadmaps that are followed in the project.</p>
-The following is an example roadmap:
-
-- [x] Add ESLint config
-- [x] Add Prettier config
-- [ ] Update README
-
-<br />
-
 <!-- ISSUES -->
 
 ## 🎯 Issues
 
-See the [open issues](project-issues-link-here) for all proposed features and known issues.
+This section contains information about issues.
 
 <br />
 
@@ -331,15 +279,7 @@ This section expresses the guidelines for contributors to follow.
 
 ## 📰 License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<br />
-
-<!-- CONTACT -->
-
-## 📞 Contact
-
-Add your contact information here.
+This section contains any license information.
 
 <br />
 
@@ -347,13 +287,10 @@ Add your contact information here.
 
 ## 👏 Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 ### Resources
+
+A big thank you for these resources.
 
 - [Img Shields](https://shields.io)
 
 <p align="right">👆 <a href="#top">Go To Top of README</a></p>
-
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
