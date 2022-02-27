@@ -17,15 +17,9 @@
 
   <!-- PROJECT SHIELDS -->
   <!--
-  *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-  *** See the bottom of this document for the declaration of the reference variables
-  *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-  *** https://www.markdownguide.org/basic-syntax/#reference-style-links
+  https://www.markdownguide.org/basic-syntax/#reference-style-links
   -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
@@ -72,14 +66,14 @@
 
 ## ⚡ Getting Started
 
-Here, we outline how to create your new project with one of the already available templates with the Progen CLI, whose docs could be found [here](http://github.com/delalify/progen).
+Here, we outline how to create your new project with one of the already available templates with the Progen CLI.
 
 ### Prerequisites
 
 - #### Install Node JS
 
   If you already have `Node JS` installed , you may skip this step.<br />
-  Download and install stable version of Node JS from [here]().
+  Download and install stable version of Node JS from [here](https://nodejs.org/download).
 
 - #### Install Yarn (optional)
 
@@ -94,13 +88,13 @@ Here, we outline how to create your new project with one of the already availabl
   - `npm`
 
     ```sh
-    npm install -g progen-cli
+    npm install -g @delalify/progen-cli
     ```
 
   - `yarn`
 
     ```sh
-    yarn global add progen-cli
+    yarn global add @delalify/progen-cli
     ```
 
 For more details on the Progen CLI, see [here](https://github.com/delalify/progen).
@@ -131,7 +125,7 @@ This section expresses the guidelines for contributors to follow.
 
 ## 📰 License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <br />
 
@@ -141,8 +135,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ### Resources
 
-A special acknowledgement of the resources used in creating this README:
+A big thank you for these resources.
 
+- [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 - [Img Shields](https://shields.io)
 
 <p align="right">👆 <a href="#top">Go To Top of README</a></p>
@@ -150,13 +145,7 @@ A special acknowledgement of the resources used in creating this README:
 <!-- LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: link-here
-[contributors-url]: link-here
-[forks-shield]: link-here
-[forks-url]: link-here
-[stars-shield]: link-here
-[stars-url]: link-here
-[issues-shield]: link-here
-[issues-url]: link-here
-[license-shield]: link-here
-[license-url]: link-here
+[issues-shield]: https://img.shields.io/github/issues/delalify/progen-templates.svg
+[issues-url]: https://github.com/delalify/progen-templates/issues
+[license-shield]: https://img.shields.io/badge/License-MIT-green.svg
+[license-url]: https://opensource.org/licenses/MIT
