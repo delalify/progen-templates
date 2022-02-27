@@ -28,6 +28,8 @@ This project was created with Next JS, in JavaScript.
     <a href="#scripts">Scripts</a>
      <ul>
       <li><a href="#start-the-development-server">Start The Development Server</a></li>
+      <li><a href="#build-the-development-server">Build The Development Server</a></li>
+      <li><a href="#start-the-production-server">Start The Production Server</a></li>
       <li><a href="#lint-all-files">Lint All Files</a></li>
       <li><a href="#format-all-files">Format All Files</a></li>
       <li><a href="#run-tests">Run Tests</a></li>
@@ -153,6 +155,54 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
   # or
 
   yarn dev
+  ```
+
+<hr />
+
+### Build The Development Server
+
+Builds the development server
+
+#### Usage
+
+- `npm`
+
+  ```sh
+  npm run build
+  ```
+
+- `yarn`
+
+  ```sh
+  yarn run build
+
+  # or
+
+  yarn build
+  ```
+
+<hr />
+
+### Start The Production Server
+
+Starts the production server
+
+#### Usage
+
+- `npm`
+
+  ```sh
+  npm run start
+  ```
+
+- `yarn`
+
+  ```sh
+  yarn run start
+
+  # or
+
+  yarn start
   ```
 
 <hr />
