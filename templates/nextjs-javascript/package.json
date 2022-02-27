@@ -8,8 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write .",
-    "lint:format": "prettier --write . && next lint --fix . --ext .js"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "next": "12.1.0",
