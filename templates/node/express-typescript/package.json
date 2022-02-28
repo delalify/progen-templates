@@ -1,6 +1,6 @@
 {
   "name": "node-express-javascript",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A Node JS Express project written in Typescript",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "eslint -c src/.eslintrc.json \"src/**/*.ts\" --ext .ts && tsc && node dist/app.js",
     "lint": "eslint -c src/.eslintrc.json \"src/**/*.ts\" --ext .ts && eslint -c __tests__/.eslintrc.json \"__tests__/**/*.js\" --ext .js",
     "lint:fix": "eslint -c src/.eslintrc.json --fix \"src/**/*.ts\" --ext .ts && eslint -c __tests__/.eslintrc.json --fix \"__tests__/**/*.js\" --ext .js",
-    "build:all": "tsc",
+    "build": "tsc",
     "format": "prettier --write src/**/*.ts __tests__/**/*.js",
     "test": "mocha -w __tests__/**/*.test.js --timeout 10000"
   },
