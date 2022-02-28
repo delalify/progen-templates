@@ -29,7 +29,9 @@ This project was created for Node JS, with Express, in Typescript.
     <ul>
       <li><a href="#watch-and-compile-changes-in-typescript-files">Watch and Compile Changes In Typescript Files</a></li>
       <li><a href="#start-the-development-server">Start The Development Server</a></li>
+      <li><a href="#build-the-development-server">Build The Development Server</a></li>
       <li><a href="#lint-all-files">Lint All Files</a></li>
+      <li><a href="#fix-found-lint-problems">Fix Found Lint Problems</a></li>
       <li><a href="#format-all-files">Format All Files</a></li>
       <li><a href="#run-tests">Run Tests</a></li>
     </ul>
@@ -179,6 +181,30 @@ Starts the development server
 
 <hr />
 
+### Build The Development Server
+
+Builds the development server
+
+#### Usage
+
+- `npm`
+
+  ```sh
+  npm run build
+  ```
+
+- `yarn`
+
+  ```sh
+  yarn run build
+
+  # or
+
+  yarn build
+  ```
+
+<hr />
+
 ### Lint All Files
 
 Lints all source code files to find errors
@@ -199,6 +225,30 @@ Lints all source code files to find errors
   # or
 
   yarn lint
+  ```
+
+<hr />
+
+### Fix Found Lint Problems
+
+Lints all source code files to find errors
+
+#### Usage
+
+- `npm`
+
+  ```sh
+  npm run lint:fix
+  ```
+
+- `yarn`
+
+  ```sh
+  yarn run lint:fix
+
+  # or
+
+  yarn lint:fix
   ```
 
 <hr />
