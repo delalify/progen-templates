@@ -16,7 +16,7 @@
     "space-in-parens": ["warn", "always"],
     "array-bracket-spacing": ["warn", "always"],
     "prefer-const": ["warn", { "destructuring": "all" }],
-    "no-multiple-empty-lines": ["error", { "max": 1 }],
+    "no-multiple-empty-lines": ["error", { "max": 2 }],
     "react/react-in-jsx-scope": ["off"]
   },
   "settings": {
