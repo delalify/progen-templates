@@ -37,9 +37,6 @@ This project was created for Node JS, with Express, in Typescript.
     </ul>
   </li>
   <li><a href="#deployment">Deployment</a></li>
-  <li><a href="#issues">Issues</a></li>
-  <li><a href="#contributing">Contributing</a></li>
-  <li><a href="#license">License</a></li>
   <li>
     <a href="#acknowledgments">Acknowledgments</a>
     <ul>
@@ -306,30 +303,6 @@ Watches and runs all tests
 ## 🚢 Deployment
 
 This section describes any details about deploying the API.
-
-<br />
-
-<!-- ISSUES -->
-
-## 🎯 Issues
-
-This section contains information about issues.
-
-<br />
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing
-
-This section expresses the guidelines for contributors to follow.
-
-<br />
-
-<!-- LICENSE -->
-
-## 📰 License
-
-This section contains any license information.
 
 <br />
 

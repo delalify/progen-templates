@@ -37,9 +37,6 @@ This project was created with Next JS and Cypress, in JavaScript.
     </ul>
   </li>
   <li><a href="#deployment">Deployment</a></li>
-  <li><a href="#issues">Issues</a></li>
-  <li><a href="#contributing">Contributing</a></li>
-  <li><a href="#license">License</a></li>
   <li>
     <a href="#acknowledgments">Acknowledgments</a>
     <ul>
@@ -289,30 +286,6 @@ Deploy using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cypress&project-name=with-cypress&repository-name=with-cypress)
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-<br />
-
-<!-- ISSUES -->
-
-## 🎯 Issues
-
-This section contains information about issues.
-
-<br />
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing
-
-This section expresses the guidelines for contributors to follow.
-
-<br />
-
-<!-- LICENSE -->
-
-## 📰 License
-
-This section contains any license information.
 
 <br />
 

@@ -35,10 +35,8 @@ This project was created with Next JS, in Typescript.
       <li><a href="#run-tests">Run Tests</a></li>
     </ul>
   </li>
+  <li><a href="#learn-more">Learn More</a></li>
   <li><a href="#deployment">Deployment</a></li>
-  <li><a href="#issues">Issues</a></li>
-  <li><a href="#contributing">Contributing</a></li>
-  <li><a href="#license">License</a></li>
   <li>
     <a href="#acknowledgments">Acknowledgments</a>
     <ul>
@@ -278,30 +276,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-<br />
-
-<!-- ISSUES -->
-
-## 🎯 Issues
-
-This section contains information about issues.
-
-<br />
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing
-
-This section expresses the guidelines for contributors to follow.
-
-<br />
-
-<!-- LICENSE -->
-
-## 📰 License
-
-This section contains any license information.
 
 <br />
 
