@@ -40,10 +40,9 @@
       <li><a href="#create-project-with-template">Create Project With Template</a></li>
     </ul>
   </li>
-  <li><a href="#roadmap">Roadmap</a></li>
+  <li><a href="#issues">Issues</a></li>
   <li><a href="#contributing">Contributing</a></li>
   <li><a href="#license">License</a></li>
-  <li><a href="#contact">Contact</a></li>
   <li><a href="#acknowledgments">Acknowledgments</a></li>
 </ol>
 
@@ -109,7 +108,7 @@ If you have successfully installed the Progen CLI program, you are now ready to 
 
 ## 🎯 Issues
 
-See the [open issues](project-issues-link-here) for all proposed features and known issues. You may also request new features or report bugs you encountered.
+See the [open issues](https://github.com/delalify/progen-templates/issues) for all proposed features and known issues. You may also request new features or report bugs you encountered.
 
 <br />
 
@@ -117,7 +116,7 @@ See the [open issues](project-issues-link-here) for all proposed features and kn
 
 ## 🤝 Contributing
 
-This section expresses the guidelines for contributors to follow.
+We welcome anyone who would want to contribute to this project. To get started, checkout `CONTRIBUTING.md`.
 
 <br />
 
