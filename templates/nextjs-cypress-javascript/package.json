@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-cypress-javascript",
+  "description": "A NextJS project written in JavaScript with Cypress",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run",
+    "e2e": "start-server-and-test dev http://localhost:3000 cypress",
+    "e2e:headless": "start-server-and-test dev http://localhost:3000 cypress:headless"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "cypress": "8.2.0",
+    "eslint-config-next": "^12.1.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "start-server-and-test": "1.13.1"
+  }
+}
