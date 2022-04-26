@@ -6,47 +6,6 @@ This project was created with Next JS and Cypress, in JavaScript.
 
 <br />
 
-<!-- TABLE OF CONTENTS -->
-
-## 📜 Table of Contents
-
-<ol>
-  <li>
-    <a href="#about-the-project">About The Project</a>
-    <ul>
-      <li><a href="#built-with">Built With</a></li>
-    </ul>
-  </li>
-  <li>
-    <a href="#getting-started">Getting Started</a>
-    <ul>
-      <li><a href="#prerequisites">Prerequisites</a></li>
-      <li><a href="#installation">Installation</a></li>
-      <li><a href="#preview">Preview</a></li>
-    </ul>
-  </li>
-  <li>
-    <a href="#scripts">Scripts</a>
-     <ul>
-      <li><a href="#start-the-development-server">Start The Development Server</a></li>
-      <li><a href="#build-the-development-server">Build The Development Server</a></li>
-      <li><a href="#start-the-production-server">Start The Production Server</a></li>
-      <li><a href="#lint-all-files">Lint All Files</a></li>
-      <li><a href="#format-all-files">Format All Files</a></li>
-      <li><a href="#run-tests">Run Tests</a></li>
-    </ul>
-  </li>
-  <li><a href="#deployment">Deployment</a></li>
-  <li>
-    <a href="#acknowledgments">Acknowledgments</a>
-    <ul>
-      <li><a href="#resources">Resources</a></li>
-    </ul>
-  </li>
-</ol>
-
-<br />
-
 <!-- ABOUT THE PROJECT -->
 
 ## 📖 About The Project
