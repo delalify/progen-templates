@@ -1,5 +1,5 @@
 {
-  "name": "node-express-javascript",
+  "name": "node-express-typescript",
   "version": "0.1.0",
   "description": "A Node JS Express project written in Typescript",
   "main": "index.js",
